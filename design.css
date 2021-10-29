@@ -1,0 +1,53 @@
+/* PAGE DESIGN */
+
+.footer {
+  margin-top: 70px;
+  text-align: center;
+}
+.cards {
+  padding-top: 100px;
+}
+.body {
+  text-align: center;
+  background-color: #FDA65D;
+}
+
+/* CARD DESIGN */
+
+.bg-custom-1 {
+  background-color: hsl(31, 77%, 52%);
+}
+.bg-custom-2 {
+  background-color: hsl(184, 100%, 22%);
+}
+.bg-custom-3 {
+  background-color: hsl(179, 100%, 13%);
+}
+h1 {
+  color: hsla(0, 0%, 100%, 0.75);
+  font-family: "Big Shoulders Display", cursive;
+}
+.info {
+  color: hsla(0, 0%, 100%, 0.75);
+  padding-top: 30px;
+  font-family: "Lexend Deca", sans-serif;
+}
+.btn-custom {
+  background-color: hsla(0, 0%, 100%, 0.75);
+  border-radius: 5%;
+}
+.learn-more:hover {
+  background-color: #D1E8E4;
+}
+.card-img-top {
+  text-align: left;
+  margin-left: 10px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  width: 20%;
+}
+@media (max-width: 900px) {
+  .cards {
+    padding: 15% 45%;
+  }
+}
